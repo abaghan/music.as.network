@@ -1,5 +1,7 @@
 library(igraph)
 
+# Source: A tutorial by Esteban Moro
+# <http://estebanmoro.org/2012/11/temporal-networks-with-igraph-and-r-with-20-lines-of-code/>
 #load the edges with time stamp
 #there are three columns in edges: id1,id2,time
 #edges <- read.table("edges.csv",header=T)
@@ -7,6 +9,8 @@ library(igraph)
 #generate the full graph
 #g <- graph.edgelist(as.matrix(edges[,c(1,2)]),directed=F)
 
+
+# Initial part of "Fur Ellise"
 g <- graph.formula(75-+76, 76-+75, 75-+76, 76-+71, 71-+74, 74-+72, 72-+69,
                    69-+45, 45-+52, 52-+57, 57-+60, 60-+64, 64-+69, 69-+71,
                    71-+52, 52-+56, 56-+59, 59-+64, 64-+68, 68-+71, 71-+72,
@@ -17,7 +21,7 @@ g <- graph.formula(75-+76, 76-+75, 75-+76, 76-+71, 71-+74, 74-+72, 72-+69,
                    45-+52, 52-+57, 57-+76, 76-+75, 75-+76, 76-+75, 75-+76,
                    76-+71, 71-+74, 74-+72, 72-+69, 69-+45, 45-+52, 52-+57,
                    57-+60, 60-+64, 64-+69, 69-+71)
-#E(g)$time <- edges[,3]
+
 E(g)$time <- 1:68
 
 
