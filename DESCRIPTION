@@ -1,0 +1,26 @@
+Package: music.as.network
+Type: Package
+Title: Statistical analysis of music as network
+Version: 0.0.0.01
+Date: 2014-12-10
+Authors@R: person("Abaghan", "Ghahraman", role = c("aut","cre")
+    ,email = "abaghan@gmail.com")
+Author: Abaghan Ghahraman <abaghan@gmail.com>
+Maintainer: Abaghan Ghahraman <abaghan@gmail.com>
+Description: This projects takes music in midi format as raw data, converts it
+    into a temporal network and analysis it.
+Depends:
+    R (>= 3.1.1)
+URL: http://github.com/abaghan/music.as.network
+BugReports: http://github.com/abaghan/music.as.network/issues
+LazyData: yes
+License: MIT + file LICENSE
+Imports:
+    ggplot2,
+    rmarkdown,
+    rapport
+VignetteBuilder: knitr
+Suggests:
+    testthat,
+    roxygen2,
+    knitr

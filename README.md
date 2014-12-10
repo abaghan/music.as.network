@@ -1,3 +1,3 @@
-# Music as a Network
+# Music as Network
 
-In this project, I analysis each piece of music as a network.
+In this project, I statistically analysis music as network.
