@@ -1,6 +1,6 @@
 # for f in (**/*.csv) {echo $f}
-library(ntdv)
-library(music.as.networ)
+library(ndtv)
+library(music.as.network)
 options(echo=TRUE)
 args <- commandArgs(trailingOnly = TRUE)
 csv.file.name <- args[1]

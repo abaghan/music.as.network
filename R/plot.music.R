@@ -1,3 +1,5 @@
+#' plots the network of the specific track of the music piece
+#' @export
 plot.music <- function(csv.file.name, trackno, plot.title=""
            , displayisolates=F, displaylabels=T){
 

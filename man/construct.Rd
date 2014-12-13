@@ -3,19 +3,14 @@
 \alias{construct}
 \title{Constructs a network out of a music in csv format converted from a midi file}
 \usage{
-construct(filename, trackno)
+construct(csv.file.name, trackno)
 }
 \arguments{
-\item{filename}{An address to csv file containing midi info}
+\item{csv.file.name}{An address to csv file containing midi info}
 
 \item{trackno}{A digit specifying the track}
 }
 \description{
 Constructs a network out of a music in csv format converted from a midi file
-}
-\examples{
-\\donotrun{
-construct("../data/fur_elise.csv", 2)
-}
 }
 

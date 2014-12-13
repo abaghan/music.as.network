@@ -1,3 +1,5 @@
+#' makes a pdf file for the given piece of music
+#' @export
 pdf.music <- function(csv.file.name, pdf.file.name="", plot.title=""
            , displayisolates=F, displaylabels=T){
 

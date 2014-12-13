@@ -2,10 +2,6 @@
 #'
 #' @param csv.file.name An address to csv file containing midi info
 #' @param trackno A digit specifying the track
-#' @examples 
-#' \donotrun{
-#' construct("../data/fur_elise.csv", 2)
-#' }
 #' @export
 
 construct <- function(csv.file.name, trackno){

@@ -1,8 +1,8 @@
 Package: music.as.network
 Type: Package
 Title: Statistical analysis of music as network
-Version: 0.0.0.01
-Date: 2014-12-10
+Version: 0.0.0.02
+Date: 2014-13-10
 Authors@R: person("Abaghan", "Ghahraman", role = c("aut","cre")
     ,email = "abaghan@gmail.com")
 Author: Abaghan Ghahraman <abaghan@gmail.com>

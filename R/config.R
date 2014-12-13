@@ -1,3 +1,5 @@
+#' returns note color configurations
+#' 
 note.color <- function(){
   note.color <- c("#00ffff"
                   , "#0000ff"
