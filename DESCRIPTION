@@ -18,6 +18,8 @@ License: MIT + file LICENSE
 Imports:
     ggplot2,
     rmarkdown,
+    networkDynamic,
+    ndtv,
     rapport
 VignetteBuilder: knitr
 Suggests:
